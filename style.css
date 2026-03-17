@@ -6,6 +6,11 @@
   text-decoration: none;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 body {
   background-color: hsl(219, 30%, 18%);
   background-image: url("images/bg-curvy-desktop.svg");
@@ -47,10 +52,14 @@ ol {
     padding-right: 5px;
   }
 
+  #logo img {
+    width: 180px;
+  }
+
   ol {
     display: flex;
     gap: 10px;
-    margin-right: 20px;
+    margin-right: 10px;
   }
 
   #pass a {
@@ -365,6 +374,7 @@ h4 {
   .cards {
     display: block;
     align-items: center;
+    width: 95%;
     position: relative;
   }
 
@@ -373,11 +383,9 @@ h4 {
     border-radius: 2px;
     color: white;
     font-size: 15px;
-    padding-top: 25px;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 25px;
+    padding: 30px 20px;
     margin-bottom: 20px;
+    margin-right: 7px;
   }
 
   .down {
